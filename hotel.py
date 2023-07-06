@@ -19,7 +19,7 @@ from email.mime.multipart import MIMEMultipart
 
 
 # sets the webpage configuration
-image = Image.open('/Users/calebkwakye/Desktop/ECON_242Project/images/sh.jpeg')
+image = Image.open('images/sh.jpeg')
 st.set_page_config(page_title="SpiderHub Oceanfront Hotel",
                    page_icon=image, layout="wide")
 
@@ -49,7 +49,7 @@ def add_bg_from_local(image_file):
 
 
 add_bg_from_local(
-    '/Users/calebkwakye/Desktop/ECON_242Project/images/r_-r-2_BZuGgkP4k-unsplash.jpg')
+    'images/r_-r-2_BZuGgkP4k-unsplash.jpg')
 
 
 # a function that gets a lottie animation from a url source
@@ -86,7 +86,7 @@ with st.container():
         )
     with right_column:
         image = Image.open(
-            '/Users/calebkwakye/Desktop/ECON_242Project/images/tholaal-mohamed-8sKTHeGgrUM-unsplash.jpg')
+            'images/tholaal-mohamed-8sKTHeGgrUM-unsplash.jpg')
         st.image(image)
 
 
@@ -119,12 +119,12 @@ with st.container():
             """
         )
         image = Image.open(
-            '/Users/calebkwakye/Desktop/ECON_242Project/images/edvin-johansson-rlwE8f8anOc-unsplash.jpg')
+            'images/edvin-johansson-rlwE8f8anOc-unsplash.jpg')
         st.image(image)
 
     with right_column:
         image = Image.open(
-            '/Users/calebkwakye/Desktop/ECON_242Project/images/anmol-seth-hDbCjHNdF48-unsplash.jpg')
+            'images/anmol-seth-hDbCjHNdF48-unsplash.jpg')
         st.image(image)
 
 
@@ -136,7 +136,7 @@ with st.container():
         st.header("EXPLORE OUR ROOMS")
         st.write("##")
         image = Image.open(
-            '/Users/calebkwakye/Desktop/ECON_242Project/images/suites.png')
+            'images/suites.png')
         st.image(image)
 
 
@@ -149,35 +149,35 @@ with st.container():
 
         st.write("##")
         image = Image.open(
-            "/Users/calebkwakye/Desktop/ECON_242Project/images/160502155618-terranea-vista-pool.jpg")
+            "images/160502155618-terranea-vista-pool.jpg")
         st.image(image, caption="Pool")
 
     with column2:
 
         st.write("##")
         image = Image.open(
-            "/Users/calebkwakye/Desktop/ECON_242Project/images/gym.jpeg")
+            "images/gym.jpeg")
         st.image(image, caption="Gym")
 
     with column3:
 
         st.write("##")
         image = Image.open(
-            "/Users/calebkwakye/Desktop/ECON_242Project/images/restaurant.webp")
+            "images/restaurant.webp")
         st.image(image, caption="Restaurants")
 
     with column4:
 
         st.write("##")
         image = Image.open(
-            "/Users/calebkwakye/Desktop/ECON_242Project/images/spa.jpeg")
+            "images/spa.jpeg")
         st.image(image, caption="SPA And Health Center")
 
     with column5:
 
         st.write("##")
         image = Image.open(
-            "/Users/calebkwakye/Desktop/ECON_242Project/images/catering.webp")
+            "images/catering.webp")
         st.image(image, caption="Catering Services")
 
 
@@ -189,7 +189,7 @@ with st.container():
         st.header("TESTIMONIALS")
         st.write("##")
         image = Image.open(
-            '/Users/calebkwakye/Desktop/ECON_242Project/images/testimonials.png')
+            'images/testimonials.png')
         st.image(image)
 
 
@@ -201,7 +201,7 @@ with st.container():
 
     with right_column:
         HtmlFile = open(
-            "/Users/calebkwakye/Desktop/ECON_242Project/images/hotel satisfaction.html", 'r', encoding='utf-8')
+            "images/hotel satisfaction.html", 'r', encoding='utf-8')
         source_code = HtmlFile.read()
         print(source_code)
         com.html(source_code, height=400)
@@ -215,7 +215,7 @@ with st.container():
         st.header("OUR TEAM")
         st.write("##")
         image = Image.open(
-            '/Users/calebkwakye/Desktop/ECON_242Project/images/team.png')
+            'images/team.png')
         st.image(image)
 
 
@@ -341,7 +341,7 @@ with st.container():
 
     with text_column:
         HtmlFile = open(
-            "/Users/calebkwakye/Desktop/ECON_242Project/images/hotel_map (1).html", 'r', encoding='utf-8')
+            "images/hotel_map (1).html", 'r', encoding='utf-8')
         source_code = HtmlFile.read()
         print(source_code)
         com.html(source_code, height=400)
